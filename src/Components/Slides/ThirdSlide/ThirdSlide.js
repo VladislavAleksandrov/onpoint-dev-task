@@ -4,7 +4,7 @@ import {Main} from "./Main/Main";
 import {Media} from "./Media/Media";
 import {Modal} from "./Modal/Modal";
 
-export const ThirdSlide = () => {
+export const ThirdSlide = ({active}) => {
 	const [isOpen, setOpen] = useState(false)
 
 	return (
@@ -12,7 +12,7 @@ export const ThirdSlide = () => {
 			<div className={s.background}/>
 			<Main isOpen={isOpen} setOpen={setOpen}/>
 			<Media/>
-			<Modal isOpen={isOpen} setOpen={setOpen}/>
+			<Modal isOpen={isOpen} setOpen={setOpen} active={active}/>
 		</div>
 	)
 }
