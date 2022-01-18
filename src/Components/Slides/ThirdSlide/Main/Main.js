@@ -2,6 +2,9 @@ import s from './Main.module.css'
 import React, {useState} from "react";
 import {Button} from "../../../Button/Button";
 import {Title} from "../Title/Title";
+import buttonPlus from './img/buttonPlus.png'
+import dishesIcon from './dishesIcon.png'
+import datesIcon from './datesIcon.png'
 
 export const Main = ({isOpen, setOpen}) => {
 
@@ -23,16 +26,16 @@ export const Main = ({isOpen, setOpen}) => {
 						vestibulum lorem sed
 						risus ultricies
 					</p>
-					<img className={s.dishes} src="/img/slide3/dishesIcon.png" alt="dishes"/>
+					<img className={s.dishes} src={dishesIcon} alt="dishes"/>
 				</div>
 
 				<div className={s.secondBlock}>
 					<p>A arcu
 						cursus vitae
 					</p>
-					<img className={s.dates} src="/img/slide3/datesIcon.png" alt="calendar"/>
+					<img className={s.dates} src={datesIcon} alt="calendar"/>
 				</div>
-				<Button text="Подробнее" imgUrl="/img/slide3/buttonPlus.png" alt='+' s={s} fun={openModal}/>
+				<Button text="Подробнее" imgUrl={buttonPlus} alt='+' s={s} fun={openModal}/>
 
 			</div>
 		</div>

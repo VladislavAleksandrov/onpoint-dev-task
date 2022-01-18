@@ -1,5 +1,6 @@
 import s from './Hello.module.css'
 import {Button} from "../../../Button/Button";
+import button from './img/buttonArrow.png'
 
 export const Hello = ({nextClick}) => {
 	return (
@@ -11,7 +12,7 @@ export const Hello = ({nextClick}) => {
 				<p className={s.light}>
 					это <span className={s.extraBold}>не</span> коммерческое задание
 				</p>
-				<Button text='Что дальше' imgUrl='/img/slide1/buttonArrow.png' alt='🠖' s={s} fun={nextClick}
+				<Button text='Что дальше' imgUrl={button} alt='🠖' s={s} fun={nextClick}
 				 />
 			</div>
 

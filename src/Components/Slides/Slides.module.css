@@ -1,3 +1,5 @@
+
+
 .slides {
 	display: flex;
 	width: 100%;
@@ -14,7 +16,7 @@
 .back {
 	position: absolute;
 
-	background: url("./bg.jpg") no-repeat;
+	background: no-repeat;
 	background-size: cover;
 
 	top: 0;

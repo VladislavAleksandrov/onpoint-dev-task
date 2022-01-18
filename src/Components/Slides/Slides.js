@@ -4,6 +4,7 @@ import {SecondSlide} from "./SecondSlide/SecondSlide";
 import {ThirdSlide} from "./ThirdSlide/ThirdSlide";
 import React, {useState} from "react";
 import throttle from "lodash/throttle";
+import bg from './img/bg.jpg'
 
 export const Slides = React.forwardRef(({nextClick}, ref) => {
 
@@ -16,7 +17,7 @@ export const Slides = React.forwardRef(({nextClick}, ref) => {
 
 	return (
 		<div ref={ref} className={s.slides} onScroll={onScroll}>
-			<div className={s.back}/>
+			<div className={s.back} style={{ backgroundImage: `url(${bg})`}}/>
 			<FirstSlide active={slideNumber === 1} nextClick={nextClick}/>
 			<SecondSlide active={slideNumber === 2} slideNumber={slideNumber}/>
 			<ThirdSlide active={slideNumber === 3}/>

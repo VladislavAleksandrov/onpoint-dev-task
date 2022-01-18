@@ -1,17 +1,27 @@
 import s from './Media.module.css'
+import bottle from './img/bottle.png'
+import pinkMed from './img/pinkMed.png'
+import pinkBig from './img/pinkBig.png'
+import pinkSmall from './img/pinkSmall.png'
+import blueLeft from './img/blueLeft.png'
+import blueBottom from './img/blueBottom.png'
+import blueBottomSmall from './img/blueBottomSmall.png'
+import blueTopNext from './img/blueTopNext.png'
+import blueTop from './img/blueTop.png'
+
 
 export const Media = () => {
   return (
 		<>
-			<img className={s.bottle} src="/img/slide3/bottle.png" alt="bottle"/>
-			<img className={s.pinkMed} src="/img/slide3/pinkMed.png" alt=""/>
-			<img className={s.pinkBig} src="/img/slide3/pinkBig.png" alt=""/>
-			<img className={s.pinkSmall} src="/img/slide3/pinkSmall.png" alt=""/>
-			<img className={s.blueLeft} src="/img/slide3/blueLeft.png" alt=""/>
-			<img className={s.blueBottom} src="/img/slide3/blueBottom.png" alt=""/>
-			<img className={s.blueBottomSmall} src="/img/slide3/blueBottomSmall.png" alt=""/>
-			<img className={s.blueTopNext} src="/img/slide3/blueTopNext.png" alt=""/>
-			<img className={s.blueTop} src="/img/slide3/blueTop.png" alt=""/>
+			<img className={s.bottle} src={bottle} alt="bottle"/>
+			<img className={s.pinkMed} src={pinkMed} alt=""/>
+			<img className={s.pinkBig} src={pinkBig} alt=""/>
+			<img className={s.pinkSmall} src={pinkSmall} alt=""/>
+			<img className={s.blueLeft} src={blueLeft} alt=""/>
+			<img className={s.blueBottom} src={blueBottom} alt=""/>
+			<img className={s.blueBottomSmall} src={blueBottomSmall} alt=""/>
+			<img className={s.blueTopNext} src={blueTopNext} alt=""/>
+			<img className={s.blueTop} src={blueTop} alt=""/>
 		</>
   )
 }

@@ -6,7 +6,7 @@
 	right: 0;
 	z-index: 5;
 
-	background: url("./bg.png");
+	background:no-repeat;
 }
 
 .textBlock {
