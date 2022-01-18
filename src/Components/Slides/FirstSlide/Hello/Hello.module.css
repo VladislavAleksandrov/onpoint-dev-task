@@ -8,7 +8,7 @@
 }
 
 .small {
-	font-family: "DIN Pro Regular", serif;
+	font-family: "DIN Pro", serif;
 	font-size: 27px;
 	margin: 0 0 13px;
 }
@@ -48,7 +48,7 @@
 }
 
 .buttonText {
-	font-family: "DIN Pro Regular", serif;
+	font-family: "DIN Pro", serif;
 	font-size: 27px;
 	display: block;
 	padding: 6px;

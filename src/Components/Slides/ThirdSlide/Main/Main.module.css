@@ -11,7 +11,7 @@
 }
 
 .title {
-	font-family: "DIN Pro Regular", serif;
+	font-family: "DIN Pro", serif;
 	font-size: 27px;
 	letter-spacing: 1.8px;
 
@@ -53,7 +53,7 @@
 	margin-left: 240px;
 	margin-right: 50px;
 
-	font-family: "DIN Pro Regular", serif;
+	font-family: "DIN Pro", serif;
 	font-size: 25px;
 }
 
@@ -112,7 +112,7 @@ position: absolute;
 }
 
 .buttonText {
-	font-family: "DIN Pro Regular", serif;
+	font-family: "DIN Pro", serif;
 	font-size: 27px;
 	letter-spacing: 1px;
 
