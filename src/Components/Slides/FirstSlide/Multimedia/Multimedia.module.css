@@ -1,0 +1,116 @@
+
+.sperm {
+	position: absolute;
+	right: 0;
+	top: 155px;
+	z-index: 3;
+}
+
+/*круглый средний*/
+.bakti1 {
+	position: absolute;
+	bottom: 193px;
+	left: 22px;
+	z-index: 2;
+	animation: 5s mediumBall infinite ease-in-out;
+}
+
+/*круглый малый*/
+.bakti2 {
+	position: absolute;
+	top: 61px;
+	right: 217px;
+	animation: 5s smallBall infinite ease-in-out;
+}
+
+/*малый шипастый*/
+
+.bakti_Block3 {
+	position: absolute;
+	top: 200px;
+	right: 52px;
+	animation: 6s smallThorns infinite linear;
+	z-index: 4;
+}
+
+.bakti3 {
+	z-index: 4;
+	animation: 30s smallThornsRotate infinite linear;
+
+}
+
+/*самый большой*/
+.bakti4 {
+	position: absolute;
+	bottom: -99px;
+	right: 254px;
+	animation: 4s bigBakti linear infinite;
+}
+
+@keyframes bigBakti {
+	10% {
+		transform: scale(1.05);
+	}
+	30% {
+		transform: translate(-1%, -2%) scale(1.1);
+	}
+	50% {
+		transform: translate(-2%, -3%) scale(1.1);
+	}
+	70% {
+		transform: translate(-3%, 0) scale(1.05);
+	}
+	90% {
+		transform: translate(-1%, 0) scale(1.02);
+	}
+	100% {
+		transform: translate(0, 0);
+
+	}
+}
+
+@keyframes smallThorns {
+	25% {
+		transform: translate(-82px, -55px);
+	}
+	39% {
+		transform: translate(-100px, -87px);
+
+	}
+	45% {
+		transform: translate(-80px, -87px);
+	}
+	60% {
+		transform: translate(-60px, -70px);
+	}
+	80% {
+		transform: translate(-30px, -40px);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes smallThornsRotate {
+	100% {
+		transform: rotate(-360deg);
+	}
+}
+
+@keyframes smallBall {
+	50% {
+		transform: translate(40px, 20px) scale(1.1);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes mediumBall {
+	50% {
+		transform: translate(30px, 50px);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}

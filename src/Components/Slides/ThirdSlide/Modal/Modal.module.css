@@ -1,0 +1,161 @@
+.background {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 5;
+
+	background: url("./bg.png");
+}
+
+.textBlock {
+	text-transform: uppercase;
+	margin: 162px 0 0 351px;
+	color: #242424;
+
+	position: relative;
+	z-index: 15;
+
+	display: inline-block;
+}
+
+.title {
+	font-family: "DIN Pro Regular", serif;
+	font-size: 27px;
+	letter-spacing: 1.8px;
+
+	margin: 0;
+	position: relative;
+	z-index: 15;
+
+	display: inline-block;
+}
+
+.brend {
+	position: relative;
+
+	font-family: Gilroy, serif;
+	font-weight: 400;
+	font-size: 95px;
+	letter-spacing: 11px;
+
+	margin: 0 0 0 -5px;
+
+	display: inline-block;
+}
+
+.extraBold {
+	position: absolute;
+	right: -141px;
+	top: -5px;
+
+	font-weight: 800;
+}
+
+.popUp {
+	margin: 125px 60px 70px 120px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+	/*height: 570px;*/
+	background: white;
+	border-radius: 36px;
+
+	position: absolute;
+	z-index: 5;
+
+	padding: 203px 100px 100px 232px;
+}
+
+.btnClose {
+	position: absolute;
+	top: 21px;
+	right: 23px;
+	z-index: 999;
+
+	background: none;
+	border: none;
+
+	padding: 10px;
+}
+
+.list {
+	padding: 0;
+	margin: 0;
+
+	line-height: 2.1em;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 265px;
+}
+
+.list p {
+	font-family: Gilroy, serif;
+	font-size: 25px;
+	font-weight: 800;
+	color: #8cc9e8;
+	padding: 0;
+	margin: 0;
+}
+
+.list p span {
+	font-family: "DIN Pro Regular", serif;
+	font-size: 25px;
+	color: #2e2e2e;
+}
+
+.navButtons {
+	position: absolute;
+	bottom: 35px;
+	left: 230px;
+	z-index: 99;
+
+	display: flex;
+	gap: 10px;
+}
+
+.buttonLeft {
+	border: none;
+	background: none;
+
+	margin: 0;
+	padding: 0 15px 0 0;
+}
+
+
+.buttonRight {
+	border: none;
+	background: none;
+	margin: 0;
+	padding: 0 0 0 15px;
+}
+
+.pointDisabled {
+	margin-top: 2px;
+	width: 11px;
+	height: 11px;
+	border-radius: 5.5px;
+	outline: 1px solid black;
+	outline-offset: -1px;
+}
+
+.pointActive {
+	background: #fc6da9;
+	outline: none;
+}
+
+.slideVisible {
+	opacity: 1;
+	position: absolute;
+	transition: .6s opacity ease-in-out;
+}
+
+.slideInvisible {
+	opacity: 0;
+}
+

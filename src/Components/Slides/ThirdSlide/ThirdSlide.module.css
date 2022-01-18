@@ -1,0 +1,21 @@
+.slide {
+	position: relative;
+	flex-shrink: 0;
+
+	height: 768px;
+	width: 100%;
+
+	scroll-snap-align: start;
+}
+
+.background {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+
+	/*background: url("bg3.jpg") no-repeat;*/
+}
+

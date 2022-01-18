@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'DIN Pro';
+	src: url('/src/fonts/DINPro.eot');
+	src: local('DIN Pro Regular'), local('DINPro-Regular'),
+	url(/src/fonts/DINPro.eot) format('embedded-opentype'),
+	url('/src/fonts/DINPro.woff') format('woff'),
+	url('/src/fonts/DINPro.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Circe;
+	src: url('/src/fonts/circe.eot');
+	src: local('Circe Regular'), local('Circe-Regular'),
+	url('/src/fonts/circe.eot') format('embedded-opentype'),
+	url('/src/fonts/circe.woff2') format('woff2'),
+	url('/src/fonts/circe.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Gilroy;
+	src: url('/src/fonts/Gilroy-Regular.eot');
+	src: local(Gilroy Regular), local('Gilroy-Regular'),
+	url('/src/fonts/Gilroy-Regular.eot') format('embedded-opentype'),
+	url('/src/fonts/Gilroy-Regular.woff') format('woff'),
+	url('/src/fonts/Gilroy-Regular.woff2') format('woff2'),
+	url('/src/fonts/Gilroy-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Gilroy;
+	src: url('/src/fonts/Gilroy-ExtraBold.eot');
+	src: local(Gilroy ExtraBold), local('Gilroy-ExtraBold'),
+	url('/src/fonts/Gilroy-ExtraBold.eot') format('embedded-opentype'),
+	url('/src/fonts/Gilroy-ExtraBold.woff') format('woff'),
+	url('/src/fonts/Gilroy-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}

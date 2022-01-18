@@ -1,0 +1,112 @@
+.content {
+	position: relative;
+	padding: 127px 40px 40px 66px;
+}
+
+.title {
+	font-family: "DIN Pro Regular", serif;
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: 1.1px;
+
+	width: 100px;
+
+	margin: 0 0 44px;
+}
+
+.whiteBlock {
+	position: relative;
+	z-index: 1;
+
+	height: 391px;
+	width: 714px;
+
+	background: white;
+	border-radius: 40px;
+	filter: drop-shadow(-5px -5px 125px #9db9c6);
+
+	padding: 24px 31px 30px 30px;
+	margin: 0 0 0 53px;
+}
+
+.scrollTrack {
+	position: absolute;
+	left: -39px;
+	top: 20px;
+
+	width: 6px;
+	height: 408px;
+
+	background: black;
+	border-radius: 3px;
+}
+
+.boxForPadding {
+	background: linear-gradient(to top, #ffffff 10%, rgba(255, 255, 255, 0.39));
+	border-radius: 0 0 40px 40px;
+
+	position: sticky;
+	bottom: -32px;
+	z-index: 10;
+
+	width: 715px;
+	height: 60px;
+}
+
+.textBlock {
+	left: 53px;
+	top: 240px;
+	z-index: 2;
+	position: absolute;
+
+	margin: 0 0 0 19px;
+	padding: 24px 31px 30px 56px;
+
+	font-family: "DIN Pro Regular", serif;
+	font-size: 22px;
+	line-height: 1.367;
+	word-spacing: 0.1em;
+	direction: rtl;
+
+	overflow-y: scroll;
+
+	height: 391px;
+	width: 714px;
+}
+
+.textBlock::-webkit-scrollbar-track {
+	background-clip: content-box;
+}
+
+.textBlock::-webkit-scrollbar-track-piece:end {
+	margin-bottom: -300px;
+}
+
+.textBlock::-webkit-scrollbar-track-piece:start {
+	margin-top: 20px;
+}
+
+.textBlock::-webkit-scrollbar {
+	width: 20px;
+}
+
+.textBlock::-webkit-scrollbar-button {
+	height: 40px;
+}
+
+.textBlock::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: url("./scrollButton.png") no-repeat;
+	background-size: contain;
+}
+
+
+.text {
+	direction: ltr;
+	margin: 0;
+}
+
+.boldText {
+	font-weight: bold;
+}
+
